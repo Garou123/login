@@ -110,15 +110,12 @@
         android:layout_below="@id/Login_LinearLayout_Phone"
         android:visibility="gone"
         />
-    <TextView
-        android:id="@+id/Login_TextView_Send"
-        android:layout_width="match_parent"
-        android:layout_height="50dp"
-        android:text="登陆"
-        android:textSize="17sp"
-        android:textColor="#FFFFFF"
-        android:background="#EA566C"
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
         android:layout_alignParentBottom="true"
-        android:gravity="center"
-        />
+        android:layout_centerHorizontal="true"
+        android:text="登陆" />
 </RelativeLayout>
