@@ -5,7 +5,7 @@
     android:id="@+id/activity_login"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/img_2"
+    android:background="@drawable/img_3"
     tools:context="com.example.administrator.login.LoginActivity">
 
     <LinearLayout
@@ -98,19 +98,6 @@
             android:inputType="number"
             android:textCursorDrawable="@null" />
     </LinearLayout>
-
-    <!--android:visibility="gone"-->
-    <TextView
-        android:id="@+id/Login_TextView_PhoneError"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="手机号不正确"
-        android:textSize="12sp"
-        android:textColor="#EA566C"
-        android:layout_centerHorizontal="true"
-        android:layout_below="@id/Login_LinearLayout_Phone"
-        android:visibility="gone"
-        />
 
     <Button
         android:id="@+id/button"
